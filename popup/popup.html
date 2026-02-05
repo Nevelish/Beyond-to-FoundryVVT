@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>DnD Beyond to FoundryVTT</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>DnD Beyond to FoundryVTT</h1>
+    <p class="subtitle">Import your characters easily</p>
+    
+    <div class="section">
+      <h2>Cobalt Cookie</h2>
+      <p class="description">Copy your DnD Beyond cobalt cookie for authentication</p>
+      <button id="copyCobalt" class="btn btn-primary">Copy Cobalt Cookie</button>
+      <div id="cobaltStatus" class="status"></div>
+    </div>
+    
+    <div class="section">
+      <h2>Character Data</h2>
+      <p class="description">Copy character data from the current DnD Beyond character page</p>
+      <button id="copyCharacter" class="btn btn-primary">Copy Character Data</button>
+      <div id="characterStatus" class="status"></div>
+    </div>
+    
+    <div class="section">
+      <h2>Instructions</h2>
+      <ol class="instructions">
+        <li>Navigate to your character page on DnD Beyond</li>
+        <li>Click "Copy Cobalt Cookie" to copy authentication</li>
+        <li>Click "Copy Character Data" to copy character information</li>
+        <li>Paste the data into FoundryVTT's character importer</li>
+      </ol>
+    </div>
+    
+    <div class="footer">
+      <p>Version 1.0.0</p>
+    </div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>

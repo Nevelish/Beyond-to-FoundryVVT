@@ -1,0 +1,27 @@
+{
+  "name": "dndbeyond-to-foundryvtt",
+  "version": "1.0.0",
+  "description": "Firefox extension for importing characters from DnD Beyond into FoundryVTT",
+  "scripts": {
+    "build": "web-ext build --overwrite-dest",
+    "start": "web-ext run",
+    "lint": "web-ext lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nevelish/Beyond-to-FoundryVVT.git"
+  },
+  "keywords": [
+    "firefox",
+    "extension",
+    "dndbeyond",
+    "foundryvtt",
+    "dnd",
+    "character-import"
+  ],
+  "author": "Nevelish",
+  "license": "SEE LICENSE IN LICENSE",
+  "devDependencies": {
+    "web-ext": "^7.0.0"
+  }
+}

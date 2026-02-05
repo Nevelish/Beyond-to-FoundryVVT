@@ -1,0 +1,125 @@
+body {
+  width: 400px;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+.container {
+  padding: 20px;
+}
+
+h1 {
+  margin: 0 0 5px 0;
+  font-size: 24px;
+  font-weight: 600;
+  color: #e03131;
+}
+
+.subtitle {
+  margin: 0 0 20px 0;
+  font-size: 14px;
+  color: #666;
+}
+
+h2 {
+  margin: 0 0 10px 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.section {
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.description {
+  margin: 0 0 12px 0;
+  font-size: 13px;
+  color: #666;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-primary {
+  background-color: #e03131;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #c92a2a;
+}
+
+.btn-primary:active {
+  background-color: #a61e1e;
+}
+
+.status {
+  margin-top: 10px;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 13px;
+  text-align: center;
+  display: none;
+}
+
+.status.success {
+  display: block;
+  background-color: #d3f9d8;
+  color: #2b8a3e;
+  border: 1px solid #8ce99a;
+}
+
+.status.error {
+  display: block;
+  background-color: #ffe3e3;
+  color: #c92a2a;
+  border: 1px solid #ffa8a8;
+}
+
+.status.info {
+  display: block;
+  background-color: #e7f5ff;
+  color: #1971c2;
+  border: 1px solid #74c0fc;
+}
+
+.instructions {
+  margin: 0;
+  padding-left: 20px;
+  font-size: 13px;
+  color: #666;
+}
+
+.instructions li {
+  margin-bottom: 8px;
+}
+
+.footer {
+  text-align: center;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 12px;
+  color: #999;
+}
